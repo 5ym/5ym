@@ -52,13 +52,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/5ym/5ym/master/profile-summary-card-output/dracula/4-productive-time.svg)
-```
-
-    
