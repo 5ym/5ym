@@ -16,3 +16,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
           plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_stargazers: yes
+          plugin_lines: yes
+          plugin_topics: yes
+          plugin_stars: yes
