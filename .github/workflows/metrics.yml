@@ -37,7 +37,7 @@ jobs:
           plugin_introduction: yes
           plugin_pagespeed: yes
           plugin_stackoverflow: yes
-          plugin_stackoverflow_user: "10004647"
+          plugin_stackoverflow_user: 10004647
           plugin_anilist: yes
           plugin_anilist_user: rukDoe
           plugin_music: yes
@@ -45,6 +45,6 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
           plugin_steam: yes
-          plugin_steam_user: 76561199164371500
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: "76561199164371500"
