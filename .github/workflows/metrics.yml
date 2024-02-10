@@ -34,7 +34,6 @@ jobs:
           plugin_starlists: yes
           plugin_achievements: yes
           plugin_notable: yes
-          plugin_activity: yes
           plugin_traffic: yes
           plugin_code: yes
           plugin_gists: yes
