@@ -45,5 +45,6 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_wakatime: yes
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_leetcode: yes
           plugin_steam: yes
