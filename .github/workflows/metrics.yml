@@ -29,7 +29,6 @@ jobs:
           plugin_sponsorships: yes
           plugin_sponsors: yes
           plugin_discussions: yes
-          plugin_starlists: yes
           plugin_achievements: yes
           plugin_notable: yes
           plugin_traffic: yes
