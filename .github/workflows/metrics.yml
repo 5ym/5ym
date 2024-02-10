@@ -14,4 +14,5 @@ jobs:
       - uses: lowlighter/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          config_display: large
           plugin_isocalendar: yes
