@@ -21,9 +21,8 @@ jobs:
           plugin_topics: yes
           plugin_stars: yes
           plugin_licenses: yes
-          plugin_licenses_ratio: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
           plugin_habits: yes
-          plugin_contributors: yes
           plugin_reactions: yes
           plugin_people: yes
           plugin_sponsorships: yes
@@ -46,6 +45,6 @@ jobs:
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
-          plugin_steam: yes
           plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam: yes
           plugin_steam_user: 76561199164371500
