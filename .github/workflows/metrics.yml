@@ -44,4 +44,3 @@ jobs:
           plugin_skyline: yes
           plugin_pagespeed: yes
           plugin_stackoverflow: yes
-          plugin_anilist: yes
