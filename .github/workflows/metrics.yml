@@ -43,7 +43,6 @@ jobs:
           plugin_starlists: yes
           plugin_starlists_shuffle_repositories: yes
           plugin_stars: yes
-          plugin_support: yes
           plugin_topics: yes
           plugin_traffic: yes
 
