@@ -16,13 +16,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
           config_timezone: Asia/Tokyo
-          config_order: habits, reactions, achievements, code, projects, pagespeed, rss, stackoverflow, anilist
+          config_order: habits, reactions, achievements, code, pagespeed, rss, stackoverflow, anilist
           base: metadata
           plugin_habits: yes
           plugin_reactions: yes
           plugin_achievements: yes
           plugin_code: yes
-          plugin_projects: yes
           plugin_pagespeed: yes
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 10004647
