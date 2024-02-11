@@ -15,8 +15,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
-          config_order: achievements
-          base: activity, community, repositories, metadata
+          config_order: achievements, languages, stargazers, topics, stars, habits, reactions, sponsorships, sponsors, notable, code, projects, pagespeed, rss, stackoverflow, anilist, music
+          base: metadata
           plugin_languages: yes
           plugin_stargazers: yes
           plugin_topics: yes
@@ -25,12 +25,10 @@ jobs:
           plugin_reactions: yes
           plugin_sponsorships: yes
           plugin_sponsors: yes
-          plugin_discussions: yes
           plugin_achievements: yes
           plugin_notable: yes
           plugin_notable_from: all
           plugin_notable_repositories: yes
-          plugin_traffic: yes
           plugin_code: yes
           plugin_projects: yes
           plugin_pagespeed: yes
