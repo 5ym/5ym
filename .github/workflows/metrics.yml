@@ -21,12 +21,14 @@ jobs:
           plugin_habits: yes
           plugin_habits_from: 1000
           plugin_habits_days: 30
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: graph
           plugin_reactions: yes
+          plugin_reactions_limit: 1000
+          plugin_reactions_limit_issues: 1000
+          plugin_reactions_limit_discussions: 1000
+          plugin_reactions_limit_discussions_comments: 1000
+          plugin_reactions_details: count
           plugin_achievements: yes
           plugin_code: yes
-          plugin_pagespeed: yes
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
           plugin_music: yes
