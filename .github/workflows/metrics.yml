@@ -23,7 +23,6 @@ jobs:
           plugin_habits_days: 30
           plugin_habits_charts: yes
           plugin_habits_charts_type: graph
-          plugin_habits_languages_threshold: 100%
           plugin_reactions: yes
           plugin_achievements: yes
           plugin_code: yes
