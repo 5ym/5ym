@@ -23,6 +23,8 @@ jobs:
           plugin_achievements: yes
           plugin_code: yes
           plugin_pagespeed: yes
+          plugin_rss: yes
+          plugin_rss_source: https://doany.io/feed.xml
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 10004647
           plugin_music: yes
