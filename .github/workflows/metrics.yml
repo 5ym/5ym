@@ -16,7 +16,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
           config_timezone: Asia/Tokyo
-          config_order: reactions, achievements, code, habits, rss
+          config_order: reactions, code, habits, achievements, rss
           base: metadata
           plugin_habits: yes
           plugin_habits_from: 1000
