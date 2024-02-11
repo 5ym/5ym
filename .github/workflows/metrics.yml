@@ -15,6 +15,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
+          config_timezone: Asia/Tokyo
           config_order: languages, stargazers, topics, stars, habits, reactions, sponsorships, achievements, code, projects, pagespeed, rss, stackoverflow, anilist, music
           base: metadata
           plugin_languages: yes
