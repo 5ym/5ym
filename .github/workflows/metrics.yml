@@ -26,7 +26,6 @@ jobs:
           plugin_reactions_limit_issues: 1000
           plugin_reactions_limit_discussions: 1000
           plugin_reactions_limit_discussions_comments: 1000
-          plugin_reactions_details: count
           plugin_achievements: yes
           plugin_code: yes
           plugin_rss: yes
@@ -35,3 +34,5 @@ jobs:
           plugin_music_provider: spotify
           plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
           plugin_music_mode: top
+          plugin_music_time_range: short
+          plugin_music_top_type: tracks
