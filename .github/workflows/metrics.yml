@@ -15,15 +15,14 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           config_display: large
+          config_order: achievements
           base: activity, community, repositories, metadata
-          plugin_isocalendar: yes
           plugin_languages: yes
           plugin_stargazers: yes
           plugin_topics: yes
           plugin_stars: yes
           plugin_habits: yes
           plugin_reactions: yes
-          plugin_people: yes
           plugin_sponsorships: yes
           plugin_sponsors: yes
           plugin_discussions: yes
@@ -33,7 +32,6 @@ jobs:
           plugin_notable_repositories: yes
           plugin_traffic: yes
           plugin_code: yes
-          plugin_gists: yes
           plugin_projects: yes
           plugin_pagespeed: yes
           plugin_stackoverflow: yes
