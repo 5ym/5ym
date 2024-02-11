@@ -19,6 +19,11 @@ jobs:
           config_order: habits, reactions, achievements, code, pagespeed, rss, stackoverflow
           base: metadata
           plugin_habits: yes
+          plugin_habits_from: 1000
+          plugin_habits_days: 30
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          plugin_habits_languages_threshold: 100%
           plugin_reactions: yes
           plugin_achievements: yes
           plugin_code: yes
