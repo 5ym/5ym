@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1264" class="large">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1277" class="large">
     <defs>
         <style/>
     </defs>
@@ -98,7 +98,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"/>
                             </svg>
-                            On 7 Jun 2024, 14:20:27
+                            On 7 Jun 2024, 13:58:39
                         </div>
                     </section>
                 </div>
@@ -114,7 +114,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm6.5-.25A.75.75 0 017.25 7h1a.75.75 0 01.75.75v2.75h.25a.75.75 0 010 1.5h-2a.75.75 0 010-1.5h.25v-2h-.25a.75.75 0 01-.75-.75zM8 6a1 1 0 100-2 1 1 0 000 2z"/>
                             </svg>
-                            <span class="code">8f5ceced</span>
+                            <span class="code">85941088</span>
                             <span class="code">next.config.js</span>
                             <span class="code">
                                 <span class="snippet additions">++1</span>
@@ -126,7 +126,7 @@
                 <div class="row">
                     <section class="snippet">
                         <div class="body markdown">
-                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -12,7 +12,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">img-src * blob: data:;<br /></span><span class="token prefix unchanged">·</span><span class="token line">media-src *;<br /></span><span class="token prefix unchanged">·</span><span class="token line">connect-src *;<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">font-src 'self';<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">font-src 'self' *.gstatic.com;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">frame-src giscus.app *.g.doubleclick.net *.googlesyndication.com *.google.com *.adsensecustomsearchads.com;<br /></span><span class="token prefix unchanged">·</span><span class="token line">`<br /></span><span class="token prefix unchanged">·</span></span></code>
+                            <code class="language-diff" xml:space="preserve"><span class="token coord">@@ -7,7 +7,7 @@</span><br /><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">// You might need to insert additional domains in script-src if you are using external services<br /></span><span class="token prefix unchanged">·</span><span class="token line">const ContentSecurityPolicy = `<br /></span><span class="token prefix unchanged">·</span><span class="token line">default-src 'self';<br /></span></span><span class="token deleted-sign deleted"><span class="token prefix deleted">-</span><span class="token line">script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app *.cloudflareinsights.com *.googlesyndication.com *.googleadservices.com;<br /></span></span><span class="token inserted-sign inserted"><span class="token prefix inserted">+</span><span class="token line">script-src 'self' 'unsafe-eval' 'unsafe-inline' giscus.app *.cloudflareinsights.com *.googlesyndication.com *.googleadservices.com *.google.com;<br /></span></span><span class="token unchanged"><span class="token prefix unchanged">·</span><span class="token line">style-src 'self' 'unsafe-inline' giscus.app;<br /></span><span class="token prefix unchanged">·</span><span class="token line">img-src * blob: data:;<br /></span><span class="token prefix unchanged">·</span><span class="token line">media-src *;</span></span></code>
                         </div>
                     </section>
                 </div>
@@ -197,7 +197,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="93 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="93.08487337440111 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -299,7 +299,7 @@
                                 <div class="title">
                                     <span class="prefix">Super</span>
                                     developer
-                                    <span class="gh">ranked 419k out of 138m users</span>
+                                    <span class="gh">ranked 420k out of 138m users</span>
                                 </div>
                                 <div class="text">Published 66 public repositories</div>
                             </div>
@@ -394,7 +394,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="14.983333333333333 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="15.5 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g stroke-width="2" fill="none" fill-rule="evenodd">
@@ -416,7 +416,7 @@
                                     <span class="prefix">Great</span>
                                     deployer
                                 </div>
-                                <div class="text">Repositories have been deployed 229 times</div>
+                                <div class="text">Repositories have been deployed 230 times</div>
                             </div>
                         </div>
                         <div class="achievement b largeable-width-half">
@@ -595,7 +595,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Influencer
-                                    <span class="gh">ranked 908k out of 138m users</span>
+                                    <span class="gh">ranked 909k out of 138m users</span>
                                 </div>
                                 <div class="text">Followed by 16 users</div>
                             </div>
@@ -641,7 +641,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 3.52m out of 203m repositories</span>
+                                    <span class="gh">ranked 3.52m out of 208m repositories</span>
                                 </div>
                                 <div class="text">Maintaining or created a repository which has been forked 2 times</div>
                             </div>
@@ -930,7 +930,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 9 Jun 2024, 09:02:13 (timezone Asia/Tokyo) with lowlighter/metrics@3.35.0-beta</span>
+                <span>Last updated 10 Jun 2024, 09:01:53 (timezone Asia/Tokyo) with lowlighter/metrics@3.35.0-beta</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
