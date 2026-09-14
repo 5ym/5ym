@@ -6,7 +6,7 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    environment: 
+    environment:
       name: production
     permissions:
       contents: write
@@ -14,22 +14,28 @@ jobs:
       - uses: gh-metrics/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          config_display: large
+          base: ""
+          config_display: columns
           config_timezone: Asia/Tokyo
-          config_order: reactions, code, habits, achievements, rss
-          base: metadata
-          plugin_habits: yes
-          plugin_habits_from: 1000
-          plugin_habits_days: 30
-          plugin_reactions: yes
-          plugin_reactions_limit: 1000
-          plugin_reactions_limit_issues: 1000
-          plugin_reactions_limit_discussions: 1000
-          plugin_reactions_limit_discussions_comments: 1000
+          config_order: isocalendar, languages, achievements, rss
+
+          # 直近半年のコントリビューション
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # よく使う言語
+          plugin_languages: yes
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 6
+          plugin_languages_details: percentage
+
+          # アチーブメントは A ランク以上のみコンパクト表示
           plugin_achievements: yes
-          plugin_code: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: A
+          plugin_achievements_secrets: no
+
+          # ブログの最新記事
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
-          plugin_music: yes
-          plugin_music_provider: spotify
-          plugin_music_token: ${{ secrets.SPOTIFY_TOKENS }}
+          plugin_rss_limit: 2
