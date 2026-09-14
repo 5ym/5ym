@@ -11,31 +11,70 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: gh-metrics/metrics@master
+      - uses: actions/checkout@v4
+
+      # 各セクションを別々の SVG に出力し、最後にまとめてコミットする
+      # (1 枚の SVG に columns 表示すると GitHub 上でレイアウトが崩れるため)
+      - name: Contributions calendar
+        uses: gh-metrics/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: calendar.svg
           base: ""
-          config_display: columns
+          config_display: regular
           config_timezone: Asia/Tokyo
-          config_order: isocalendar, languages, achievements, rss
-
-          # 直近半年のコントリビューション
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # よく使う言語
+      - name: Languages
+        uses: gh-metrics/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: languages.svg
+          base: ""
+          config_display: regular
+          config_timezone: Asia/Tokyo
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_limit: 6
           plugin_languages_details: percentage
 
-          # アチーブメントは A ランク以上のみコンパクト表示
+      - name: Achievements
+        uses: gh-metrics/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: achievements.svg
+          base: ""
+          config_display: regular
+          config_timezone: Asia/Tokyo
           plugin_achievements: yes
           plugin_achievements_display: compact
           plugin_achievements_threshold: A
           plugin_achievements_secrets: no
 
-          # ブログの最新記事
+      - name: RSS
+        uses: gh-metrics/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: rss.svg
+          base: ""
+          config_display: regular
+          config_timezone: Asia/Tokyo
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
           plugin_rss_limit: 2
+
+      - name: Commit
+        run: |
+          mkdir -p metrics
+          cp /metrics_renders/*.svg metrics/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics
+          git diff --cached --quiet && exit 0
+          git commit -m "Update metrics [skip ci]"
+          git push

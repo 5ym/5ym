@@ -19,4 +19,9 @@
 
 ## Metrics
 
-![Metrics](/github-metrics.svg)
+<p>
+  <img src="metrics/calendar.svg" width="49%" alt="Contributions calendar">
+  <img src="metrics/languages.svg" width="49%" alt="Languages">
+  <img src="metrics/achievements.svg" width="49%" alt="Achievements">
+  <img src="metrics/rss.svg" width="49%" alt="Blog RSS">
+</p>
