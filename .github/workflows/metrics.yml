@@ -11,7 +11,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # 各セクションを別々の SVG に出力し、最後にまとめてコミットする
       # (1 枚の SVG に columns 表示すると GitHub 上でレイアウトが崩れるため)
