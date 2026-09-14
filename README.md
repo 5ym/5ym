@@ -13,7 +13,6 @@
 | [qes](https://github.com/5ym/qes) | QRコードで入場・支払を管理できる簡易システム (SvelteKit + Bun + SQLite) |
 | [smart-qr-payment](https://github.com/5ym/smart-qr-payment) | QRコードを使ったセルフレジ / 事前購入システム (SvelteKit + Bun + SQLite) |
 | [lockview-android](https://github.com/5ym/lockview-android) | WebView を Android でキオスク風に表示するアプリ |
-| [md-web](https://github.com/5ym/md-web) | CodeMirror 6 の Markdown エディタ。GitHub 風プレビューと印刷 / PDF 出力対応 |
 | [ec-cube](https://github.com/5ym/ec-cube) | FrankenPHP で動く EC-CUBE 4 系の Docker イメージ |
 | [sudachi](https://github.com/5ym/sudachi) | Sudachi (sudachi.rs) + SudachiDict 同梱の Docker イメージ |
 
