@@ -1,11 +1,3 @@
-# Ryuki Maruyama / 5ym
-
-千葉県木更津市在住。[Doa](https://doany.io) として活動しています。
-
-- 🌐 詳しいプロフィール: [doany.io/about](https://doany.io/about)
-- 📝 ブログ: [doany.io](https://doany.io)
-- 📜 明記がない限り当方の全コードは [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ja) です
-
 ## Projects
 
 | リポジトリ | 概要 |
@@ -20,7 +12,13 @@
 
 <p>
   <img src="metrics/calendar.svg" width="49%" alt="Contributions calendar">
-  <img src="metrics/languages.svg" width="49%" alt="Languages">
   <img src="metrics/achievements.svg" width="49%" alt="Achievements">
+</p>
+<p>
+  <img src="metrics/languages.svg" width="49%" alt="Languages">
+  <img src="metrics/people.svg" width="49%" alt="Followers">
+</p>
+<p>
   <img src="metrics/rss.svg" width="49%" alt="Blog RSS">
+  <img src="metrics/followup.svg" width="49%" alt="Issues and pull requests">
 </p>

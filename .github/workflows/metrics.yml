@@ -67,7 +67,32 @@ jobs:
           config_timezone: Asia/Tokyo
           plugin_rss: yes
           plugin_rss_source: https://doany.io/feed.xml
-          plugin_rss_limit: 2
+          plugin_rss_limit: 3
+
+      - name: Follow-up
+        uses: gh-metrics/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: followup.svg
+          base: ""
+          config_display: regular
+          config_timezone: Asia/Tokyo
+          plugin_followup: yes
+
+      - name: Followers
+        uses: gh-metrics/metrics@master
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          output_action: none
+          filename: people.svg
+          base: ""
+          config_display: regular
+          config_timezone: Asia/Tokyo
+          plugin_people: yes
+          plugin_people_types: followers
+          plugin_people_limit: 28
+          plugin_people_size: 28
 
       - name: Commit
         run: |
