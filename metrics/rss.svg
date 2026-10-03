@@ -20,15 +20,6 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">稼働表とは何か。検索するとシフト表の作り方ばかり出てくるので、違いとテンプレートを書いておく</div>
-                                <div class="date">5 Sept 2026</div>
-                            </div>
-                        </div>
-                        <div class="field rss">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
-                            </svg>
-                            <div class="infos">
                                 <div class="title">小〜中規模のWebアプリをSvelteKit + Bun + SQLiteに寄せてみた</div>
                                 <div class="date">4 Sept 2026</div>
                             </div>
@@ -38,8 +29,17 @@
                                 <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
                             </svg>
                             <div class="infos">
-                                <div class="title">稼働表を手で書くのをやめてコミット履歴から作ってみたら月9時間だった</div>
-                                <div class="date">6 Aug 2026</div>
+                                <div class="title">Slackで「自分の全投稿を取得するアプリ」は配布できない</div>
+                                <div class="date">31 Jul 2026</div>
+                            </div>
+                        </div>
+                        <div class="field rss">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M8 5.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM4 8a4 4 0 118 0 4 4 0 01-8 0z"/>
+                            </svg>
+                            <div class="infos">
+                                <div class="title">サイトをAstro + k3sで作り直した話</div>
+                                <div class="date">29 Jul 2026</div>
                             </div>
                         </div>
                     </section>
