@@ -2,9 +2,9 @@
 
 | リポジトリ | 概要 |
 | --- | --- |
-| [mogiri](https://github.com/5ym/mogiri) | もぎり。QRコードで入場受付と物販 (事前購入・当日販売・受け取り) をまとめて回すイベント用システム (SvelteKit + Bun + SQLite) |
+|[seisho](https://github.com/5ym/seisho)|清書。リポジトリの .qd を Quarkdown で PDF にし、同じブランチの pdf/ と OneDrive などに置く GitHub Action (uses: 5ym/seisho@v2)|
+| [mogiri](https://github.com/5ym/mogiri) | もぎり。QRコードで入場受付と物販 (事前購入・当日販売・受け取り) をまとめて回すイベント用システム |
 | [lockview-android](https://github.com/5ym/lockview-android) | WebView を Android でキオスク風に表示するアプリ |
-| [ec-cube](https://github.com/5ym/ec-cube) | FrankenPHP で動く EC-CUBE 4 系の Docker イメージ |
 | [sudachi](https://github.com/5ym/sudachi) | Sudachi (sudachi.rs) + SudachiDict 同梱の Docker イメージ |
 
 ## Metrics
