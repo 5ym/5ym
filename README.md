@@ -6,6 +6,8 @@
 | [noren](https://github.com/5ym/noren) | 暖簾。商品を並べて売り、ダウンロード商品はメールで届け、グッズとチケットは会場で QR を見せて受け取ってもらう、小さな店と催しのためのアプリ (旧 mogiri) |
 | [lockview-android](https://github.com/5ym/lockview-android) | WebView を Android でキオスク風に表示するアプリ |
 | [sudachi](https://github.com/5ym/sudachi) | Sudachi (sudachi.rs) + SudachiDict 同梱の Docker イメージ |
+| [svelte-slider](https://github.com/5ym/svelte-slider) | フリックの速さに合わせて素早く収まる、Svelte 5 のヘッドレスなスライダー。土台はブラウザのスクロールと CSS scroll-snap |
+| [pandoc](https://github.com/5ym/pandoc) | 日本語の文書をオプション無しで PDF などに変換できる Pandoc のコンテナ (BIZ UD 明朝・ゴシック入り) |
 
 ## Metrics
 
