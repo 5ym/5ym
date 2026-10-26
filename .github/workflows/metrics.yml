@@ -66,7 +66,7 @@ jobs:
           config_display: regular
           config_timezone: Asia/Tokyo
           plugin_rss: yes
-          plugin_rss_source: https://b.doany.io/rss.xml
+          plugin_rss_source: https://raw.githubusercontent.com/danything/blog/feed/rss.xml # b.doany.io は Bot Fight Mode で Actions から読めない (danything/blog の feed.yml)
           plugin_rss_limit: 3
 
       - name: Follow-up
