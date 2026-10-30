@@ -21,12 +21,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="269.0027961382847" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="269.0027961382847" y="0" width="94.62699194808316" height="8" fill="#ff3e00"/>
-                    <rect mask="url(#languages-bar)" x="363.62978808636785" y="0" width="48.72244521892401" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="412.3522333052918" y="0" width="20.018651604374472" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="432.3708849096663" y="0" width="17.402716019709167" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="449.77360092937545" y="0" width="10.226399070624524" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="267.55244175705786" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="267.55244175705786" y="0" width="94.11680144328385" height="8" fill="#ff3e00"/>
+                    <rect mask="url(#languages-bar)" x="361.6692432003417" y="0" width="48.459753481507924" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="410.1289966818496" y="0" width="19.9107191238298" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="430.03971580567946" y="0" width="17.308887606819898" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="447.34860341249936" y="0" width="12.651396587500678" height="8" fill="#f1e05a"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -38,7 +38,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>58.48%</div>
+                                <div>58.16%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -49,7 +49,7 @@
                                 Kotlin
                             </div>
                             <small>
-                                <div>10.59%</div>
+                                <div>10.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -60,7 +60,7 @@
                                 PowerShell
                             </div>
                             <small>
-                                <div>3.78%</div>
+                                <div>3.76%</div>
                             </small>
                         </div>
                     </section>
@@ -73,7 +73,7 @@
                                 Svelte
                             </div>
                             <small>
-                                <div>20.57%</div>
+                                <div>20.46%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -84,7 +84,7 @@
                                 CSS
                             </div>
                             <small>
-                                <div>4.35%</div>
+                                <div>4.33%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -95,7 +95,7 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>2.22%</div>
+                                <div>2.75%</div>
                             </small>
                         </div>
                     </section>
